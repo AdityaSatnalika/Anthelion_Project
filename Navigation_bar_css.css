@@ -148,14 +148,14 @@ input[type="submit"] {
     height: 200px;
   float: right;
   border: none;
-    background-image: url("Search-512.png");
   top: 0;
   right: 0;
   cursor: pointer;
   opacity: 0.4;
   transition: opacity .4s ease;
 }
-input[type="submit"]:hover {
+input[type="submit"]:hover 
+{
   opacity: 0.8;
 }
 
