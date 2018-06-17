@@ -269,7 +269,8 @@ margin: 5px;
     width:16%;
     margin-left: 10px;
     display: inline-block;
-
+    border: 2px dotted black;
+    border-radius: 5px;
 }
 
 .content_horizontal
