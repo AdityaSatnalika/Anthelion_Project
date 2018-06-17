@@ -1,0 +1,511 @@
+body
+{
+    overflow-x: hidden;
+
+
+}
+
+#language
+{
+    padding-bottom: 10px;
+}
+#language a{
+    text-decoration: none;
+}
+body
+{
+    margin: 5px;
+}
+#language a:hover{
+        color: darkblue;
+        text-decoration: underline ;
+        font-weight: bold;
+}
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix ~ .topnav {
+     position: relative;
+     top: 50px;
+  }
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e21727;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color: #b21727;text-decoration: underline;f}
+ul.topnav li a.active {background-color: #4CAF50;}
+ul.topnav li.right {float: right;}
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+#nav_panel{
+    color: white;
+    font-size:30px;
+    cursor:pointer;
+    padding: 10px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #e21727;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#wrap {
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  float: right;
+  padding: 0;
+  position: relative;
+    
+
+}
+#headlines_marquee{ 
+
+    margin-top:10px;
+    font-size: 20px;
+    font-family: monospace; 
+    font-weight: bold;
+   }
+
+input[type="text"] {
+  height: 40px;
+  font-size: 20px;
+  display: inline-block;
+  font-family: "Lato";
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: #555;
+  padding: 3px;
+  padding-right: 60px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  z-index: 3;
+  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+}
+input[type="text"]:focus:hover {
+  border-bottom: 1px solid #BBB;
+}
+input[type="text"]:focus {
+  width: 250px;
+  color: white;
+    margin-right: 60px;
+  z-index: 1;
+  border-bottom: 1px solid #BBB;
+  cursor: text;
+}
+input[type="submit"] {
+  width:50px;
+    height: 200px;
+  float: right;
+  border: none;
+    background-image: url("Search-512.png");
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity .4s ease;
+}
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+
+.video_trending
+{   overflow-x: hidden;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+}
+#popup-live_ItsNewBroadcast-button
+{   width: 60%;
+    height: 400px;
+    float:left;
+    display: inline-block;
+    background: black;
+
+}
+#popup_live_ItsNewBroadcast
+{
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+
+}
+ hr 
+{ 
+     margin: 0em;
+     padding: 0em;
+} 
+#trending
+{   width: 20%;
+    height:400px;
+    float:left;
+    margin-right: 20px;
+    padding-right: 18px;
+    display: inline-block;   
+    overflow: hidden;    
+    position: relative;
+}
+#trending_items
+{   width: 115%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 17px;
+    height: 400px;
+}
+
+#trending_items div
+{
+width:110%;
+height:80px;
+overflow: hidden;
+display:inline;
+padding-right: 12px; 
+
+}
+#trending_items div div
+{
+    width: 80%;
+    overflow: auto;
+    text-align: justify;
+}
+#context_india
+{
+    height: 370px;
+    float: left;
+    margin-right: 10px;
+    width:100%;
+    margin-top: 15px;
+      border-top: 2px solid transparent;
+      border-image: linear-gradient(to right, black , white);
+      border-image-slice: 1;
+    border-radius: 5px;
+}
+
+marquee:hover
+{
+     animation-play-state: paused;
+}
+#national_description {
+    width: 320px;
+    padding: 5px;
+    margin: 0;
+}
+#news_container
+{
+display:flex;
+margin: 5px;
+        height: 60px;
+
+}
+#business_news_container
+{
+    display:flex;
+    margin: 5px;
+        height: 120px;
+
+}
+#context_india div
+{
+    float:left;
+
+    
+
+}
+#ads
+{
+    float: left;
+    height: 400px;
+    width:16%;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+
+.content_horizontal
+{
+    float: left;
+    margin-top: 30px;
+    width: 99%;
+    margin-right: 1.1%;
+    height: 510px;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+.container_holder
+{
+    float: left;
+    width: 32%;
+    height: 560px;
+    margin-right: 1.33%;
+     border-top: 2px solid transparent;
+      border-image: linear-gradient(to right, black , white);
+      border-image-slice: 1;
+    border-radius: 5px;
+
+}
+mark
+{
+position:relative;
+top:-15px;
+font-size: 20px;
+background:white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#popular_video_links
+{
+    float:left;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    overflow: hidden;
+     border-top: 2px solid transparent;
+      border-image: linear-gradient(to right, black , white);
+      border-image-slice: 1;
+    border-radius: 5px;}
+
+#sponsored_description
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 350px;   
+    padding-left: 15px;
+    display: flex;
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#editors_description
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 350px;   
+    padding-left: 15px;
+    display: flex;
+    padding-top: 80px;
+}
+#editor_image 
+{
+  border-radius: 50%;
+  position:relative;
+  top:-50px;
+}
+#editor_container 
+{
+    width: 280px;
+    margin: 0;
+    height:215px;
+    background-color:lightgrey;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+#editor_desc
+{
+  position:relative;
+  top:-40px;
+}
+
+
+#business
+{
+    float: left;
+    width: 100%;
+    height: 350px;
+    margin-top:80px;
+    margin-bottom: 20px;
+
+}
+#video_links
+{
+     float:left;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    overflow: hidden;
+     border-top: 2px solid transparent;
+      border-image: linear-gradient(to right, black , white);
+      border-image-slice: 1;
+    border-radius: 5px;}
+
+#footer
+{
+    float: left;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left:100px; 
+    padding-right: 10px;
+    
+}
+#footer_links a
+{
+    color: white;
+    font-size: 22px;
+}
+
+img
+{
+    border-radius: 5px;
+}
+
+#editor_container img:hover{
+
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+    box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+}
+mark:hover
+{
+    text-decoration: underline;
+    
+}
+a
+{
+    color: black;
+}
+img{
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+}
+a:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue
+    
+}
+.shadow {
+    border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
+  box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+  overflow: hidden;
+}
+.shadow:hover 
+{
+    border-radius: 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
+    box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
+    border: 1px solid blue;
+}
+.shadow:hover img
+{
+      transform: scale(1);
+
+    border-radius: 5px;
+
+}
+.shadow img {
+        border-radius: 5px;
+
+  max-width: 100%;
+  position: relative;
+  z-index: -1;
+  transform: scale(1.25);
+}

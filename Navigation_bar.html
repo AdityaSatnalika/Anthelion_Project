@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="Navigation_bar_css.css">
+    <title>News Website</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="Navigation_bar_script.js"></script> 
+    
+</head>
+    
+<body >
+    <div id="language">        
+              <center> <a href="url">Hindi</a> |           
+                <a href="url">English</a> |
+                <a href="url">Bengali</a> 
+          
+        <div id="google_translate_element" style="display: inline-block; padding-left: 8px; width:150px;" ></div></center>  
+
+                <script type="text/javascript">
+                function googleTranslateElementInit() 
+                {
+                  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                }
+                </script>
+                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>   
+        </div>    
+    <ul class="topnav"  data-spy="affix" data-offset-top="50">
+      <li><span id="nav_panel" onclick="openNav()">&#9776;</span></li>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#national">national</a></li>
+      <li><a href="#Inter-National">Inter-national</a></li>
+      <li><a href="#Sports">Sports</a></li>
+      <li><a href="#Videos">Videos</a></li>
+
+      <li><a href="#contact">Contact</a></li>
+      <li class="right"><a href="#about">About</a></li>
+      <li class="right">
+      <div id="wrap">
+          <img src="icon.png" width="40px" height="47px;"> 
+          <form action="" autocomplete="on">
+          <input id="search" name="search" type="text" placeholder="What're we looking ?"><input id="search_submit" value="" type="submit">
+          </form>
+      </div>  
+
+        
+        
+      </li>
+    </ul>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>    
+    <div id="headlines_marquee"><marquee>BREAKING NEWS : Nitin Gadkari planning to kill PM Narendra Modi, Shehla Rashid posts 'sarcastic' tweet; minister to sue her .</marquee></div>
+    <hr style="height:1px;border:none;color:#111;background-color:#333;">
+    <div class="video_trending">   
+        <div id="trending" >
+            <center><span style="font-size: 28px;padding:5px;">TRENDING NEWS</span></center>
+            <hr>
+        <marquee direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" height="400px;">  
+            
+            <div id="trending_items">
+                
+                    <div style="float:left;margin-top: 5px;">
+                    <img src="Trending1.jpg" alt="Smiley face" style="height:80px;width:80px;float:left;margin-right: 5px;">                        
+                    <div style="height:80px;"><left><a>Nitin Gadkari planning to kill PM Narendra Modi, Shehla Rashid posts 'sarcastic' tweet; minister to sue her</a></left></div>
+                    </div>
+                    
+                    <div style="float:left;margin-top: 5px;">
+                    <img src="Trending2.jpg" alt="Smiley face" style="height:80px;width:80px;float:left;margin-right: 5px;">                        
+                    <div style="height:80px;"><left><a> RSS planning to put forth Pranab Mukherjee as Prime Minister candidate, feels Shiv Sena</a></left></div>
+                    </div>
+                
+                    <div style="float:left;margin-top: 5px;">
+                    <img src="Trendings3.jpg" alt="Smiley face" style="height:80px;width:80px;float:left;margin-right: 5px;">                        
+                        <div style="height:80px;"><left><a> Bid to kill Salman Khan foiled, Lawrence Bishnoi gang member arrested in </a></left></div>
+                    </div>
+                
+                    <div style="float:left;margin-top: 5px;">
+                    <img src="Trendings4.jpg" alt="Smiley face" style="height:80px;width:80px;float:left;margin-right: 5px;">                        
+                        <div style="height:80px;"><left><a> After handshake with Pakistan President Mamnoon Hussain, PM Narendra Modi talks tough on terror and Afghanistan</a></left></div>
+                    </div>
+                    
+                    
+            </div>
+            
+            
+            </marquee>
+        </div> 
+        
+        
+        
+        <div href='#' align='left' id='popup-live_ItsNewBroadcast-button'>   
+            <div id='popup_live_ItsNewBroadcast' class='popup' style='display:absolute;'>
+                <a class='bClose'></a>    
+                <a id='player_live_ItsNewBroadcast' href='#'>&nbsp;</a>
+                   <script  src="VideoPlayer.js"></script>   
+            </div>
+        </div>
+        <div id="ads">
+             Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+        </div>
+        
+    </div>    
+<!________________________________________________________________________________________________________________________________________________________________________!>
+    
+    
+    <div id="context_india">
+        <mark> National </mark>
+        <p>
+          <div id="india_items" style="width:22%;height:300px;float: left;overflow: hidden;">     
+              <div class="shadow"> <img src="National%201.jpg" width="100%" height="260px" alt="Klematis" ></div>
+                <div style="overflow: hidden;border: none;"><center><h5><a><b> J&K: Six terrorists killed, infiltration bid foiled by security forces in Kupwara</b></a></h5> </center></div>     
+              
+            </div>
+            
+          <div id="india_items" style="margin-left:10px;width: 60%;height:330px;overflow: auto;">               
+            
+              
+               <div id="news_container" >
+                <div id="national_description"><a>Mumbai shocker: Young couple makes love at Nariman Point, onlookers make MMS<br/></a>
+                    <hr style="height:10px;margin-top:10px; " />
+                   </div>
+                   
+              </div>
+                <div id="news_container" >
+                <div id="national_description"><a>Delhi Chhattarpur encounter: How the gang used to boast 'supremacy' after committing crimes</a>
+                    <hr style="height:10px;margin-top:10px; " /></div>
+              </div>
+                <div id="news_container" >
+                <div id="national_description"><a>M Narendra Modi floats the concept of SECURE at SCO Summit</a><hr style="height:10px;margin-top:10px; " /></div>
+              </div>              
+               <div id="news_container" >
+                <div id="national_description"><a>Sheila Dikshit targets Arvind Kejriwal-led AAP government, says conflict with Centre can't be an excuse to not work</a><hr style="height:10px;margin-top:10px; " /></div>
+              </div>
+                <div id="news_container" >
+                <div id="national_description"><a>Priyanka Chopra apologises for portrayal of Indian as terrorist in American TV series Quantico</a><hr style="height:10px;margin-top:10px; " /></div>
+              </div> 
+                <div id="news_container" >
+                <div id="national_description"><a>M Narendra Modi floats the concept of SECURE at SCO Summit</a><hr style="height:10px;margin-top:10px; " /></div>
+              </div>              
+               <div id="news_container" >
+                <div id="national_description"><a>Sheila Dikshit targets Arvind Kejriwal-led AAP government, says conflict with Centre can't be an excuse to not work</a><hr style="height:10px;margin-top:10px; " /></div>
+              </div>
+                <div id="news_container" >
+                <div id="national_description"><a>Priyanka Chopra apologises for portrayal of Indian as terrorist in American TV series Quantico</a><hr style="height:10px;margin-top:10px; " /></div>
+              </div> 
+              
+             
+          
+           
+          </div>
+       
+               <div id="ads">
+             Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+        </div>
+        
+         </p>   
+    
+        </div>    
+    
+   <! ________________________________________________________________________________________________________________________________________________________________________!><br/><br/>
+    <div class="container_holder">
+        <mark> International </mark>
+        <div class="content_horizontal"> 
+        
+           <center> 
+              <div class="shadow">
+                <img src="International%20News.jpg" width="100%" height="250px" alt="Klematis">
+               
+             </div>
+           </center>
+               
+        <br/>
+        
+         <div style="margin-left: 15px;overflow-y:scroll;width: 105%;height: 50%; ">
+               
+               
+               <a>Caretaker Pakistan Prime Minister Nasirul Mulk, government members violate law to declare assets</a>
+                <hr style="height:2px;margin-top:10px; " />
+                
+                <a>G7 summit photo shared by Angela Merkel with Donald Trump sparks laugh riot on Twitter</a><hr style="height:2px;margin-top:10px; " />
+                <a>North Korea's Kim Jong Un arrives in Singapore for meeting with Donald Trump on Air China flight: Reports</a><hr style="height:2px;margin-top:10px; " />
+                <a>Donald Trump dramatically withdraws endorsement of G7 joint statement, accuses Justin Trudeau of dishonesty</a><hr style="height:2px;margin-top:10px; " />
+                <a>Pervez Musharraf's national identity card, passport suspended: Report</a><hr style="height:2px;margin-top:10px; " />
+              
+        </div>  
+    
+    
+    
+    </div> 
+    </div>    
+    <div class="container_holder">
+        <mark> Sports </mark>
+    <div class="content_horizontal">
+        
+        <center><div class="shadow"> <img src="Sports.jpg" width="100%" height="250px" alt="Klematis" ></div></center>
+        <br/>
+        
+         <div style="margin-left: 15px;overflow-y:scroll;width: 105%;height: 50%; ">
+               
+              <a>Stephen Constantine said his boys will not take anything for granted in finals of the Intercontinental Cup</a><hr style="height:2px;margin-top:10px; " />
+                <a>UTT had role in paddlers' historic CWG show: Vita Dani</a><hr style="height:2px;margin-top:10px; " />
+                <a>Sunil Chhetri's India seek crowning glory, Kenya stand in way at Intercontinental Cup</a><hr style="height:2px;margin-top:10px; " />
+                <a>60,000 football fans from Brazil to travel to Russia</a><hr style="height:2px;margin-top:10px; " />
+                <a>Neymar will be welcome at Real Madrid, says Marcelo denied</a><hr style="height:2px;margin-top:10px; " /> 
+        </div>  
+        
+    </div></div>
+    <div class="container_holder">
+        <mark> Health </mark>
+    <div class="content_horizontal"> 
+        
+        <center><div class="shadow"> <img src="Health1.jpg" width="100%" height="250px" alt="Klematis" ></div></center>
+        <br/>
+        
+         <div style="margin-left: 15px;overflow-y:scroll;width: 105%;height: 50%; ">
+        
+            <a>Daily yoga practice improves sperm quality: AIIMS study</a><hr style="height:2px;margin-top:10px; " />
+               <a> Human brain grown in rodents to boost treatments for neurological disorders</a><hr style="height:2px;margin-top:10px; " />
+                <a>Low testosterone level linked to chronic diseases in men</a><hr style="height:2px;margin-top:10px; " />
+               <a> Kale, beetroot: Nutritious ingredients for healthy food</a><hr style="height:2px;margin-top:10px; " />
+               <a> Just one concussion may up Parkinson's risk: Study</a><hr style="height:2px;margin-top:10px; " />
+             
+        </div>  
+    </div></div>       
+
+    
+     <!________________________________________________________________________________________________________________________________________________________________________!>
+
+    <div id="context_india" style="margin-top: 50px;">
+        <mark> Business </mark>
+        <p>
+          <div id="india_items" style="width:22%;height:300px;float: left;overflow: hidden;">     
+              <div class="shadow"> <img src="Business1.jpg" width="100%" height="260px" alt="Klematis" ></div>
+            <div style="overflow: hidden;border: none;"><center><h5><a>Mukesh Ambani keeps salary capped at Rs 15 crore for 10th year in a row</a></h5></center></div>     
+              
+          </div>
+            
+          <div id="india_items" style="margin-left:10px;width: 75%;height:300px;float: left;overflow: auto;">
+              
+              
+              <div id="business_news_container" >
+                <img src="Business1.jpg" width="115" height="100" alt="Klematis"style="float:left;">
+                  <div id="national_description"><a>Petrol, diesel prices see biggest cut in last 10 days</a></div>
+            </div>
+              
+            <div id="business_news_container" >
+                <img src="Business1.jpg" width="115" height="100" alt="Klematis" style="float:left;">
+                <div id="national_description"><a>After failing to attract bidders, AI seeks Rs 1,000 crore short-term loan</a></div>
+            </div>
+              
+            <div id="business_news_container" >
+                <img src="Business1.jpg" width="115" height="100" alt="Klematis"style="float:left;">
+                <div id="national_description"><a>India should address banking crisis to support investment, says IMF</a></div>
+              </div>
+              
+               <div id="business_news_container" >
+                <img src="Business1.jpg" width="115" height="100" alt="Klematis"style="float:left;">
+                   <div id="national_description"><a>RBI amends Gold Monetisation Scheme to make it more attractive</a></div>
+              </div>
+         
+        
+        
+         </p>   
+    
+        </div>
+    
+    <!________________________________________________________________________________________________________________________________________________________________________!>
+    
+    <mark style="position: relative;top:12px;"> Popular Video </mark>
+    <div id="popular_video_links" >
+        <br/><br/>
+      <marquee scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();"   >  
+          
+          <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px;">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+         </div>
+        
+        <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px;  ">
+            <img src="Videos%202.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+          <center> <a> Watch positive news stories of the day, June 09, 2018</a></center>
+        </div>
+        
+        <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px;  ">
+            <img src="Videos%203.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+         <center>  <a> Breaking News: Pune police hunt for four accused in PM Modi's assassination case</a></center>
+        </div>
+        
+        <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px;  ">
+            <img src="Videos%204.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+           <center> <a>Fire breaks out in a LPG gas godown in Patna</a></center>
+        </div>
+        <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px;  ">
+            <img src="Videos%205.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+           <center><a> BJP: Rahul Gandhi must clear air on Congress' link to Bhima-Koregaon</a></center>
+        </div>
+        
+          </marquee>
+         
+        
+        
+        
+    </div> 
+    
+    <!________________________________________________________________________________________________________________________________________________________________________!>
+
+    <mark style="float: left;position: relative;top:15px;"> Sponsored Contents </mark>
+
+    <div id="sponsored" style=";float:left;height: 800px;width:100%;     border-top: 2px solid transparent;
+      border-image: linear-gradient(to right, black , white);
+      border-image-slice: 1;
+    border-radius: 5px;;padding-top: 60px;display: flex;padding-left: 40px;">
+        
+        <div style="float: left;width: 300px;height: 400px;margin-right: 30px;margin-bottom: 10px">
+                      <div class="shadow">
+                          <img src="Entertainment1.jpg" width="300px" height="300px"></div>
+        <a><br/><center>This Is The Sponsored Hyperlink</center></a>
+            <br/><br/>
+                       <div class="shadow">
+                           <img src="Entertainment1.jpg" width="300px" height="300px"></div>
+        <a><br/><center>This Is The Sponsored Hyperlink</center></a>
+        </div>
+            
+         <div style="float: left;width: 300px;height: 400px;margin-right: 30px;margin-bottom: 10px">
+                      <div class="shadow">
+                          <img src="Entertainment1.jpg" width="300px" height="300px"></div>
+        <a><br/><center>This Is The Sponsored Hyperlink</center></a>
+            <br/><Br/>
+                      <div class="shadow">
+                          <img src="Entertainment1.jpg" width="300px" height="300px"></div>
+        <a><br/><center>This Is The Sponsored Hyperlink</center></a>
+        </div>
+        
+        
+           <div id="ads" style="width: 50%;height: 70%;overflow: hidden">
+             Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+               Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+               Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+               Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+               Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+               Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+               Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+               Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+               Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor Here Google Ads Will Come Or any other paid Sponsor
+        </div>
+       
+    
+    </div>
+    
+    <!________________________________________________________________________________________________________________________________________________________________________!>
+    
+    
+    <mark style="float: left;position: relative;top:15px;"> Editors Area </mark>
+    <div style="width: 100%;     border-top: 2px solid transparent;
+      border-image: linear-gradient(to right, black , white);
+      border-image-slice: 1;
+    border-radius: 5px;;">
+             
+ 
+     <div id="editors_description" >
+        <div id="editor_container">
+        <center>
+            
+            <img id="editor_image" src="img_avatar.png" alt="Avatar" style="width:100px">
+
+
+            <div id="editor_desc" style="height:100px;"><br/> NAME OF PERSON<br/> <a><br/>Blog: Priyanka Chopra and the Quantico fiasco: Why actors must look before they leap
+                </a></div>
+
+        </center>
+    </div>
+         <div id="editor_container">
+        <center>
+            
+            <img id="editor_image" src="img_avatar.png" alt="Avatar" style="width:100px">
+
+
+            <div id="editor_desc" style="height:100px;"><br/> NAME OF PERSON<br/> <a><br/>Blog: Priyanka Chopra and the Quantico fiasco: Why actors must look before they leap
+                </a> </div>
+
+        </center>
+    </div>
+         <div id="editor_container">
+        <center>
+            
+            <img id="editor_image" src="img_avatar.png" alt="Avatar" style="width:100px">
+
+
+            <div id="editor_desc" style="height:100px;"><br/> NAME OF PERSON<br/> <a><br/>Blog: Priyanka Chopra and the Quantico fiasco: Why actors must look before they leap
+                </a></div>
+
+        </center>
+         </div> 
+         <div id="editor_container">
+        <center>
+            
+            <img id="editor_image" src="img_avatar.png" alt="Avatar" style="width:100px">
+
+
+            <div id="editor_desc" style="height:100px;"><br/> NAME OF PERSON<br/> <a><br/>Blog: Priyanka Chopra and the Quantico fiasco: Why actors must look before they leap
+                </a></div>
+
+        </center>
+    </div>
+         <div id="editor_container">
+        <center>
+            
+            <img id="editor_image" src="img_avatar.png" alt="Avatar" style="width:100px">
+
+
+            <div id="editor_desc" style="height:100px;"><br/> NAME OF PERSON<br/><a> <br/>Blog: Priyanka Chopra and the Quantico fiasco: Why actors must look before they leap
+                </a></div>
+
+        </center>
+    </div>
+         <div id="editor_container">
+        <center>
+            
+            <img id="editor_image" src="img_avatar.png" alt="Avatar" style="width:100px">
+
+
+            <div id="editor_desc" style="height:100px;"><br/> NAME OF PERSON<br/><a> <br/>Blog: Priyanka Chopra and the Quantico fiasco: Why actors must look before they leap
+                </a></div>
+
+        </center>
+    </div>
+         
+     </div>
+    </div>
+   
+<!________________________________________________________________________________________________________________________________________________________________________!>
+                <mark style="float: left;position: relative;top:15px;"> Ongoing Show Clips</mark>
+
+    <div id="video_links">
+
+        <br/><br/>
+      <marquee scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();"   >  
+          
+          <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+          
+            <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+          
+            <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+          
+            <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+          
+          
+            <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+          
+            <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+          
+            <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+          
+            <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+          
+            <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+          
+            <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+          
+            <div style="position: relative;top:-40px;left: 10px;float:left;margin-right: 10px;width: 260px; ">
+            <img src="Videos%201.jpg" width="260px;" height="200px" alt="Klematis"><br/>
+              <center> <a>383 cadets pass out from IMA Dehradun</a></center>
+          </div>
+        
+        
+          </marquee>
+         
+        
+        
+        
+    </div> 
+
+
+<!________________________________________________________________________________________________________________________________________________________________________!><br/><br/><br/>
+
+        <div class="container_holder">
+                <mark> Technology & Gadjets </mark>
+            <div class="content_horizontal"> 
+         
+         
+                <center><div class="shadow"> <img src="Technology%201.jpg" width="100%" height="250px" alt="Klematis" ></div></center>
+                    <br/><br/>  
+        
+         <div style="margin-left: 15px;margin-top: 15px;overflow-y:scroll;width: 105%;height: 50%; ">
+             
+            <a> Now repost Instagram Stories you are tagged in</a><hr style="height:2px;margin-top:10px; " />
+               <a>Reliance Big TV ropes in 50K post offices for set-top box booking</a><hr style="height:2px;margin-top:10px; " />
+               <a> Samsung Galaxy J7 Pro gets price cut: All you want to know</a><hr style="height:2px;margin-top:10px; " />
+               <a> Xiaomi unveils updated OS MIUI 10 in India: All you want to know</a><hr style="height:2px;margin-top:10px; " />
+               <a> Xiaomi Y2 launched in India: Price, availability and more</a><hr style="height:2px;margin-top:10px; " />
+        </div> 
+    </div></div>
+        <div class="container_holder">
+                    <mark> Entertainment </mark>
+    <div class="content_horizontal"> 
+        
+        <center><div class="shadow"> <img src="Entertainment1.jpg" width="100%" height="250px" alt="Klematis" ></div></center>
+        <br/>
+        
+         <div style="margin-left: 15px;margin-top: 15px;overflow-y:scroll;width: 105%;height: 50%; ">
+             
+                <a>Bhojpuri version of Chittiyan Kalaiyan will escalate your weekend vibes—Watch</a><hr style="height:2px;margin-top:10px; " />
+              <a>  John Abraham's Parmanu faces stiff competition from Veere Di Wedding, registers a dip at Box Office</a><br/><br/>
+               <a> Yash Raj Films to release Ali Zafar-starrer 'Teefa in Trouble' worldwide</a><hr style="height:2px;margin-top:10px; " />
+               <a> B-town pours in birthday wishes for Sonam Kapoor Ahuja — Check out their posts</a><hr style="height:2px;margin-top:10px; " />
+                <a>Akshay Kumar's Toilet: Ek Prem Katha opens to roaring start in China</a><hr style="height:2px;margin-top:10px; " />
+        </div>  
+        
+    
+    
+    </div></div>
+        <div class="container_holder">
+        <mark> Lifestyle </mark>
+        <div class="content_horizontal">
+            <center><div class="shadow"> <img src="Lifestyle1.jpg" width="100%" height="250px" alt="Klematis" ></div></center>
+        <br/>
+        
+         <div style="margin-left: 15px;margin-top: 15px;overflow-y:scroll;width: 105%;height: 50%; ">
+             
+               <a> Jacqueline Fernandez suffers permanent eye injury, proves she is an optimistic person—Details inside</a><hr style="height:2px;margin-top:10px; " />
+               <a> Harshvardhan Kapoor shares adorable throwback pics from Sonam Kapoor Ahuja and Anand Ahuja's wedding</a><hr style="height:2px;margin-top:10px; " />
+               <a> Kendall Jenner's topless moment on social media</a><hr style="height:2px;margin-top:10px; " />
+                <a>Ajay Devgn much better than me at pampering kids: Kajol</a><hr style="height:2px;margin-top:10px; " />
+                <a>Airport diary: Deepika Padukone looks her cheerful best as she heads to her parents' home — See photos</a><hr style="height:2px;margin-top:10px; " />
+        </div>  
+    
+    
+    </div></div>
+     
+        
+    <div id="footer">
+  
+    
+    </div> 
+    
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b263820eaa94638"></script>
+    
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b263820eaa94638"></script>
+
+
+
+</body>
+</html>
