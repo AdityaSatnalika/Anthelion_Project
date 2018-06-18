@@ -1,6 +1,8 @@
 /* Global */
 html { font-size: 100% !important; }
-
+body{
+    margin: 30px;
+}
 
 
 a {
