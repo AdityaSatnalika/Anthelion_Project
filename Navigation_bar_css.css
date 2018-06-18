@@ -300,9 +300,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdc60', end
     width: 32%;
     height: 560px;
     margin-right: 1.33%;
-     border-top: 2px solid transparent;
-      border-image: linear-gradient(to right, black , white);
-      border-image-slice: 1;
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(to right, black , white);
+    border-image-slice: 1;
     border-radius: 5px;
 
 }
@@ -323,9 +323,9 @@ background:white;
     height: 250px;
     margin-bottom: 20px;
     overflow: hidden;
-     border-top: 2px solid transparent;
-      border-image: linear-gradient(to right, black , white);
-      border-image-slice: 1;
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(to right, black , white);
+    border-image-slice: 1;
     border-radius: 5px;}
 
 #sponsored_description
@@ -338,46 +338,6 @@ background:white;
     display: flex;
     padding-top: 80px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #editors_description
 {
     float: left;
