@@ -232,23 +232,28 @@ padding-right: 12px;
 {
     height: 140px;
     width: 75%;
+    margin-bottom: 10px;
 }
 #business_left
 {
-    margin-top: 15px;
-    height: 200px;
-    width: 37.5%;
+    margin-top: 20px;
+    height: 180px;
+    width: 40%;
     float: left;
-    padding: 10px;
+    padding-right: 5px;
     border-right: 1px solid black;
     text-align: right;
+
 }
 #business_right
-{   margin-top: 15px;
-    height: 200px;
+{   margin-top: 20px;
+    height: 180px;
+        width: 37.5%;
+
     float: left;
+    padding-left: 5px;
     text-align: left;
-        padding: 10px;
+
 
 
 }
@@ -309,7 +314,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdc60', end
     margin-top: 10px;
     width: 99%;
     margin-right: 1.1%;
-    height: 510px;
+    height: 520px;
     margin-bottom: 20px;
     overflow: hidden;
 
@@ -349,16 +354,7 @@ background:white;
     border-image-slice: 1;
     border-radius: 5px;}
 
-#sponsored_description
-{
-    float: left;
-    width: 100%;
-    margin-bottom: 20px;
-    height: 350px;   
-    padding-left: 15px;
-    display: flex;
-    padding-top: 80px;
-}
+
 #editors_description
 {
     float: left;
@@ -501,4 +497,131 @@ a:hover
   position: relative;
   z-index: -1;
   transform: scale(1.25);
+}
+body 
+    {
+        font-family: Verdana, sans-serif; 
+    }
+.sponsored_inner 
+    {
+    display: flex;
+     float: left;
+    width: 100%;
+    height: 280px;
+
+    }
+.sponsored_inner img 
+    {
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 0px;
+    border-radius: 10px;
+    height: 250px;
+    width: 30%;
+    padding-left: 10px;
+   -webkit-animation: slideIn 2s forwards;
+  -moz-animation: slideIn 2s forwards;
+  animation: slideIn 2s forwards;
+    }
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sponsor_Details
+    {   
+        width: 65%;
+        height: 250px;
+        margin-top: 10px;
+        float: left;
+
+        background-color: red;
+        margin: 20px;
+        border-radius: 5px;
+        
+        
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+    }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Next & previous buttons */
+.prev, .next 
+{
+  cursor: pointer;
+  position: relative;
+  width: auto;
+  padding: 16px;
+float: left;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next 
+{   
+  border-radius: 3px 0 0 3px;
+    margin-left: 90%;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover 
+{
+  background-color: #f1f1f1;
+  color: black;
 }

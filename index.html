@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
   <link rel="stylesheet" href="css/style.css">    
@@ -69,6 +70,7 @@
       <a href="#">Clients</a>
       <a href="#">Contact</a>
     </div>    
+    
     <div id="headlines_marquee"><marquee>BREAKING NEWS : Nitin Gadkari planning to kill PM Narendra Modi, Shehla Rashid posts 'sarcastic' tweet; minister to sue her .</marquee></div>
     <hr style="height:1px;border:none;color:#111;background-color:#333;">
     <div class="video_trending">   
@@ -245,14 +247,17 @@
 
     
      <!________________________________________________________________________________________________________________________________________________________________________!>
+            <mark style="top:32px;"> Business </mark><br>
 
-    <div id="context_india" style="margin-top: 50px;">
-        <mark> Business </mark><br>
+    <div id="context_india" style="padding-top:30px;width: 100%;height: 400px;">
+        
         <div id="business_images">
             
         
-            <div style="float: left;width: 33%">  <img src="Health1.jpg" height="140px;" > 
-            <br><a style="padding-left: 60px;">This Is Image Text</a></div> 
+            <div style="float: left;width: 33%">  
+                <img src="Health1.jpg" height="140px;" > 
+            <br><a style="padding-left: 60px;">This Is Image Text</a>
+            </div> 
             
       <center> <div style=";width: 33%"> <img src="Health1.jpg" height="140px;"><br><a>This Is Image Text</a></div></center> 
             
@@ -285,12 +290,12 @@
                     <a> This will be the First Line of Text which can be as long as container</a><br><br>
 
                     <a> This will be the First Line of Text which can be as long as container</a><br><br></div>
-        
-        </div>
+        <br/><br/>
+      </div>
     
     <!________________________________________________________________________________________________________________________________________________________________________!>
     
-    <mark style="position: relative;top:12px;"> Popular Video </mark>
+    <mark style="position: relative;top:16px;"> Popular Video </mark>
     <div id="popular_video_links" >
       <div class="container" style="background-color: transparent;width: 100%">
 <div class="row">
@@ -486,23 +491,46 @@
 
     <mark style="float: left;position: relative;top:15px;"> Sponsored Contents </mark>
 
-    <div id="sponsored" style=";float:left;height: 350px;width:100%;     border-top: 2px solid transparent;
-      border-image: linear-gradient(to right, black , white);
-      border-image-slice: 1;
-    border-radius: 5px;;padding-top: 60px;display: flex;padding-left: 40px;background-color: red;">
+    <div id="sponsored" style=";float:left;height: 350px;width:100%;     border-top: 2px solid      transparent; border-image: linear-gradient(to right, black , white);border-image-slice: 1;border-radius: 5px;padding-top: 20px;background-color: aqua">
+         <div  style="overflow: hidden;width: 75%;height: 300px;background-color: darkorchid;float: left"> 
+             
+             
+         <div class="sponsored_inner">
+              <img src="img_mountains_wide.jpg">
+              <div class="sponsor_Details" ></div>
+          </div>
+
+          <div class="sponsored_inner">
+               <img src="img_nature_wide.jpg">
+              <div class="sponsor_Details"></div>
+          </div>
+
+          <div class="sponsored_inner">
+               <img src='img_snow_wide.jpg'>
+              <div class="sponsor_Details"></div>
+          </div>
+             
+             
+             <div style="width: 100%;float: left;position: relative;top: -160px;">
+                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a><br>
+            </div>
+             </div>
+          
+    <div id="ads" style="width: 22%; height: 300px;margin-right: 20px; float: right"></div>
         
-       
     
-    </div>
     
-    <!________________________________________________________________________________________________________________________________________________________________________!>
+    
+        </div> 
+<!________________________________________________________________________________________________________________________________________________________________________!>
     
     
     <mark style="float: left;position: relative;top:15px;"> Editors Area </mark>
-    <div style="width: 100%;     border-top: 2px solid transparent;
+    <div style="width: 100%;height: 300px;float: left;border-top: 2px solid transparent;
       border-image: linear-gradient(to right, black , white);
       border-image-slice: 1;
-    border-radius: 5px;;">
+    border-radius: 5px;">
              
  
      <div id="editors_description" >
@@ -657,9 +685,9 @@
          
          
                 <center><div class="shadow"> <img src="Technology%201.jpg" width="100%" height="250px" alt="Klematis" ></div></center>
-                    <br/><br/>  
+                    <br/>
         
-         <div style="margin-left: 15px;margin-top: 15px;overflow-y:scroll;width: 105%;height: 50%; ">
+         <div style="margin-left: 15px;margin-top: 15px;overflow-y:scroll;width: 105%;height: 50%;">
              
             <a> Now repost Instagram Stories you are tagged in</a><hr style="height:2px;margin-top:10px; " />
                <a>Reliance Big TV ropes in 50K post offices for set-top box booking</a><hr style="height:2px;margin-top:10px; " />
@@ -714,7 +742,28 @@
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b263820eaa94638"></script>
 
+<script>
+var slideIndex = [1,1];
+var slideId = ["sponsored_inner"]
+showSlides(1, 0);
+showSlides(1, 1);
 
+function plusSlides(n, no) 
+{
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
 
 </body>
 </html>
