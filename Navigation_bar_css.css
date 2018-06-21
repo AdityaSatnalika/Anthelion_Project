@@ -2,6 +2,10 @@ body
 {
     overflow-x: hidden;
 }
+hr{
+border-color: #bbb;
+    padding: 5px;
+}
 #language
 {
     padding-bottom: 10px;
@@ -223,9 +227,11 @@ padding-right: 12px;
     margin-right: 10px;
     width:100%;
     margin-top: 15px;
-      border-top: 2px solid transparent;
-      border-image: linear-gradient(to right, black , white);
-      border-image-slice: 1;
+   border-top: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #000 0%, #fff 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #000 0%, #fff 100%);
+  border-image: linear-gradient(to right, #000 0%, #fff 100%);
+  border-image-slice: 1;
     border-radius: 5px;
 }
 #business_images
@@ -240,8 +246,8 @@ padding-right: 12px;
     height: 180px;
     width: 40%;
     float: left;
-    padding-right: 5px;
-    border-right: 1px solid black;
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
     text-align: right;
 
 }
@@ -251,7 +257,7 @@ padding-right: 12px;
         width: 37.5%;
 
     float: left;
-    padding-left: 5px;
+    padding-left: 15px;
     text-align: left;
 
 
@@ -325,9 +331,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdc60', end
     width: 32%;
     height: 560px;
     margin-right: 1.33%;
-    border-top: 2px solid transparent;
-    border-image: linear-gradient(to right, black , white);
-    border-image-slice: 1;
+       border-top: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #000 0%, #fff 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #000 0%, #fff 100%);
+  border-image: linear-gradient(to right, #000 0%, #fff 100%);
+  border-image-slice: 1;
     border-radius: 5px;
     padding-right: 30px;
 
@@ -349,9 +357,12 @@ background:white;
     height: 250px;
     margin-bottom: 20px;
     overflow: hidden;
-    border-top: 2px solid transparent;
-    border-image: linear-gradient(to right, black , white);
-    border-image-slice: 1;
+      border-top: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #000 0%, #fff 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #000 0%, #fff 100%);
+  border-image: linear-gradient(to right, #000 0%, #fff 100%);
+  border-image-slice: 1;
+    border-radius: 5px;
     border-radius: 5px;}
 
 
@@ -407,9 +418,12 @@ background:white;
     height: 250px;
     margin-bottom: 20px;
     overflow: hidden;
-     border-top: 2px solid transparent;
-      border-image: linear-gradient(to right, black , white);
-      border-image-slice: 1;
+       border-top: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #000 0%, #fff 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #000 0%, #fff 100%);
+  border-image: linear-gradient(to right, #000 0%, #fff 100%);
+  border-image-slice: 1;
+    border-radius: 5px;
     border-radius: 5px;}
 
 #footer
