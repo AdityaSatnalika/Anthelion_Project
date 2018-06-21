@@ -555,8 +555,6 @@ body
         height: 250px;
         margin-top: 10px;
         float: left;
-
-        background-color: red;
         margin: 20px;
         border-radius: 5px;
         
@@ -603,8 +601,8 @@ body
   position: relative;
   width: auto;
   padding: 16px;
-float: left;
-  color: white;
+    float: left;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
