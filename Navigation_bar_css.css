@@ -27,7 +27,6 @@ body
       width: 100%;
       z-index: 9999 !important;
   }
-
   .affix ~ .topnav {
      position: relative;
      top: 50px;
@@ -50,10 +49,7 @@ ul.topnav li a {
 ul.topnav li a:hover:not(.active) {background-color: #b21727;text-decoration: underline;f}
 ul.topnav li a.active {background-color: #4CAF50;}
 ul.topnav li.right {float: right;}
-@media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-}
+
 
 #nav_panel{
     color: white;
@@ -91,10 +87,7 @@ ul.topnav li.right {float: right;}
     font-size: 36px;
     margin-left: 50px;
 }
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+
 #wrap {
   display: inline-block;
   position: relative;
@@ -155,40 +148,34 @@ input[type="submit"] {
   opacity: 0.4;
   transition: opacity .4s ease;
 }
-input[type="submit"]:hover 
-{
+input[type="submit"]:hover {
   opacity: 0.8;
 }
 
 
-.video_trending
-{   overflow-x: hidden;
+.video_trending{   overflow-x: hidden;
     margin-top: 10px;
     width: 100%;
     display: inline-block;
 }
-#popup-live_ItsNewBroadcast-button
-{   width: 60%;
+#popup-live_ItsNewBroadcast-button{   width: 60%;
     height: 400px;
     float:left;
     display: inline-block;
     background: black;
 
 }
-#popup_live_ItsNewBroadcast
-{
+#popup_live_ItsNewBroadcast{
     width: 100%;
     height: 400px;
     display: inline-block;
 
 }
- hr 
-{ 
+ hr { 
      margin: 0em;
      padding: 0em;
 } 
-#trending
-{   width: 20%;
+#trending{   width: 20%;
     height:400px;
     float:left;
     margin-right: 20px;
@@ -197,16 +184,14 @@ input[type="submit"]:hover
     overflow: hidden;    
     position: relative;
 }
-#trending_items
-{   width: 115%;
+#trending_items{   width: 115%;
     overflow-y: scroll;
     overflow-x: hidden;
     padding-right: 17px;
     height: 400px;
 }
 
-#trending_items div
-{
+#trending_items div{
 width:110%;
 height:80px;
 overflow: hidden;
@@ -228,10 +213,14 @@ padding-right: 12px;
     width:100%;
     margin-top: 15px;
    border-top: 2px solid transparent;
+    
   -moz-border-image: -moz-linear-gradient(left, #000 0%, #fff 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #000 0%, #fff 100%);
   border-image: linear-gradient(to right, #000 0%, #fff 100%);
   border-image-slice: 1;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
     border-radius: 5px;
 }
 #business_images
@@ -337,6 +326,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdc60', end
   border-image: linear-gradient(to right, #000 0%, #fff 100%);
   border-image-slice: 1;
     border-radius: 5px;
+      border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
     padding-right: 30px;
 
 }
@@ -363,6 +355,9 @@ background:white;
   border-image: linear-gradient(to right, #000 0%, #fff 100%);
   border-image-slice: 1;
     border-radius: 5px;
+      border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
     border-radius: 5px;}
 
 
@@ -424,6 +419,9 @@ background:white;
   border-image: linear-gradient(to right, #000 0%, #fff 100%);
   border-image-slice: 1;
     border-radius: 5px;
+      border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
     border-radius: 5px;}
 
 #footer
@@ -470,6 +468,7 @@ img{
     transition: all .5s ease-in-out;
     overflow: hidden;
 }
+img:hover{opacity: 0.7;}
 a:hover
 {
     cursor: pointer;
