@@ -1,4 +1,4 @@
-body{overflow-y: auto;overflow-x: hidden;height: 800px;}
+body{overflow-y: auto;overflow-x: hidden;}
 
 #language
 {
@@ -206,6 +206,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdc60', end
     color: blue;
     cursor: pointer;
 }
+#footer
+{
+    width: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 32px;
+    height: 300px;
+    margin-top: 10px;
+    padding-top: 10px;
+        
+}
+#footer_Section1
+{
+    width:30%;
+    height: 100%;
+}
+#footer_Section2
+{
+    width:30%;
+    height: 100%;
+}
+#footer_section3
+{
+      width:40%;
+    height: 100%;
+}
+#footer_section3_links
+{   float: left;
+    width: 40%;
+    height: 100%;
+}
 .fa {
   padding: 10px;
   padding-right:25px;
@@ -266,60 +299,25 @@ color: white;
 }
 #footer_section3_logo
 {   float: left;
-    width: 60%;
+    width: 55%;
     height: 75%;
     margin-top: 15px;
+    background-color: red;
     border: 2px solid white;
     border-radius: 5px;
 }
-#footer
-{
-    width: 98%;
-    float: left;
-    background-color: black;
-    color: white;
-    display: flex;
-    font-size: 32px;
-    height: 300px;
-    margin-top: 20px;
-    padding-top: 10px;
-    padding: 10px;
-    
-}
-#footer_Section1
-{
-    width:30%;
-    height: 100%;
-}
-#footer_Section2
-{
-    width:30%;
-    height: 100%;
-}
-#footer_section3
-{
-      width:40%;
-    height: 100%;
-}
-#footer_section3_links
-{   float: left;
-    width: 40%;
-    height: 100%;
-}
 #copyrights
 {
-    width: 97.6%;
+    width: 100%;
     height: 25px;
     float: left;
     margin-bottom: 5px;
     background-color: black;
     padding-left: 10px;
     padding-right: 15px;
-    bottom: 0px;
 }
 #copyrights a
 {
     color: white;
 }
-
 
