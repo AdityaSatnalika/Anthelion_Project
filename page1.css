@@ -1,4 +1,4 @@
-body{overflow-y: auto;overflow-x: hidden;}
+body{overflow-y: auto;overflow-x: hidden;height: 800px;}
 
 #language
 {
@@ -274,7 +274,7 @@ color: white;
 }
 #footer
 {
-    width: 100%;
+    width: 98%;
     float: left;
     background-color: black;
     color: white;
@@ -308,13 +308,14 @@ color: white;
 }
 #copyrights
 {
-    width: 100%;
+    width: 97.6%;
     height: 25px;
     float: left;
     margin-bottom: 5px;
     background-color: black;
     padding-left: 10px;
     padding-right: 15px;
+    bottom: 0px;
 }
 #copyrights a
 {
