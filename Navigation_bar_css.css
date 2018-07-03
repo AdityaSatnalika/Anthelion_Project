@@ -7,9 +7,13 @@ border-color: #bbb;
     padding: 5px;
 }
 #language
-{
+{    display: flex;
+   align-items: center;
+   justify-content: center;
     padding-bottom: 10px;
+    font-family: sans-serif;
 }
+
 #language a{
     text-decoration: none;
 }
