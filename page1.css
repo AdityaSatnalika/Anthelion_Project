@@ -10,13 +10,14 @@ body{overflow-y: auto;overflow-x: hidden;}
 body
 {
     margin: 5px;
+    font-family: sans-serif;
 }
 #language a:hover{
         color: darkblue;
         text-decoration: underline ;
         font-weight: bold;
 }
-
+a:hover{text-decoration: none;}
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -136,6 +137,16 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   opacity: 0.8;
+}
+
+.readmore
+{
+    color: blue;
+    font-weight: bold;
+}
+.readmore:hover{
+    text-decoration: underline;
+    
 }
 
 #left_add
