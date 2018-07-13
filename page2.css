@@ -21,6 +21,11 @@ background: linear-gradient(to bottom, rgba(251,220,96,1) 0%, rgba(185,157,45,1)
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdc60', endColorstr='#ecce55', GradientType=0 );    float: right;
 }
 
+#authur_sign{
+    color: grey;
+    text-align: right;
+    float: right;
+}
 #text_Description
 {
     float: left;
