@@ -17,7 +17,10 @@ body
         text-decoration: underline ;
         font-weight: bold;
 }
-a:hover{text-decoration: none;}
+a{color: black;}
+a:hover{
+    text-decoration: none;
+color: black;}
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -142,10 +145,14 @@ input[type="submit"]:hover {
 .readmore
 {
     color: blue;
-    font-weight: bold;
 }
 .readmore:hover{
     text-decoration: underline;
+    
+}
+#timestamp
+{
+    color: gray;
     
 }
 
@@ -206,7 +213,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdc60', end
 }
 #trending_items a:hover
 {
-    color: blue;
+    color: black;
     cursor: pointer;
 }
 #footer
